@@ -1,0 +1,82 @@
+html {font-size: 1rem;} 
+body {
+  padding: 2em; 
+  font-family:'Open Sans', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color:#212121;
+}
+h1,h2,h3,h4,h5,h6,p {
+  font-weight: 600;
+  margin: 0;
+  padding: 0 0 .5em;
+  font-size: 1.5rem;
+}
+h1 {font-weight: 600;}
+h2 {font-weight: 600;}
+h3 {font-weight: 600;}
+h4 {font-weight: 600;}
+h5 {font-family: Open Sans Condensed; font-weight: 600;}
+h6 {font-family: Open Sans Condensed; font-weight: 600;}
+div { padding: 1em;}
+.caps {
+  text-transform: uppercase;
+}
+.bg {
+  background-color:#FFFFFF;
+}
+input[type=text] {
+    width: 100%;
+    padding: 8px 8px;
+    margin: 10px 0px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;  
+}
+textarea {
+    width: 100%;
+    padding: 8px 8px;
+    margin: 10px 0px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;  
+}
+select {
+    width: 100%;
+    padding: 8px 8px 8px 8px;
+    margin: 10px 0px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;  
+}
+input[type=button], input[type=reset], input[type=submit] {
+    background-color: #304FFE;
+    border: none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    padding: 16px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5px 0px;
+    cursor: pointer;  
+}
+label {
+    font-size: 14px;
+    font-family:'Open Sans', Arial, sans-serif;
+    font-weight: 400;
+    color:#212121;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+.center2 {
+  padding-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.hidden {
+  display: none;
+}
