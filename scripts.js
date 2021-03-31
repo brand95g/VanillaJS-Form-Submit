@@ -15,6 +15,7 @@ form.addEventListener( "submit", function ( event ) {
   } );
 
   function onCaseSubmit() {
+    //This hides the form post submit// 
     var formDisplay = document.getElementById("myDIV"); //myDiv contains the form // 
     switch(formDisplay) {
       case "none":
@@ -24,7 +25,7 @@ form.addEventListener( "submit", function ( event ) {
       formDisplay.style.display = "none";
       break;
     }
-
+//This shows the post submit message//
     var successDisplay = document.getElementById("myDIV2"); //myDIV2 contains the post form submit message// 
     switch(successDisplay) {
       case "none":
