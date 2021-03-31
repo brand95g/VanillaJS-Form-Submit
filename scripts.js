@@ -4,7 +4,7 @@ form.addEventListener( "submit", function ( event ) {
     FD = new FormData(form);
     event.preventDefault();
     onCaseSubmit();
-    fetch("<replace with URL>", {
+    fetch("<replace with URL>", { //Replace <replace with URL> with URL of API when you want to POST to //
       method: "POST",
       mode: "no-cors",
       body: FD,
@@ -15,7 +15,7 @@ form.addEventListener( "submit", function ( event ) {
   } );
 
   function onCaseSubmit() {
-    var formDisplay = document.getElementById("myDIV");
+    var formDisplay = document.getElementById("myDIV"); //myDiv contains the form // 
     switch(formDisplay) {
       case "none":
       formDisplay.style.display = "block";
@@ -25,7 +25,7 @@ form.addEventListener( "submit", function ( event ) {
       break;
     }
 
-    var successDisplay = document.getElementById("myDIV2");
+    var successDisplay = document.getElementById("myDIV2"); //myDIV2 contains the post form submit message// 
     switch(successDisplay) {
       case "none":
       successDisplay.style.display = "block";
